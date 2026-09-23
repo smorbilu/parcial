@@ -1,0 +1,443 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="utf-8">
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="Microsoft Word 15">
+<meta name="Originator" content="Microsoft Word 15">
+<!--[if gte mso 9]>
+<xml>
+<o:DocumentProperties>
+<o:Title>Evaluación Práctica — Desarrollo Móvil</o:Title>
+</o:DocumentProperties>
+<w:WordDocument>
+<w:View>Print</w:View>
+</w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+body {
+    font-family: 'Calibri', sans-serif;
+    font-size: 11pt;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    color: #1a1a1a;
+    line-height: 1.4;
+}
+h1 {
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    color: #1a3c6e;
+    margin-top: 0;
+    margin-bottom: 4pt;
+}
+h2 {
+    font-size: 13pt;
+    font-weight: bold;
+    color: #1a3c6e;
+    border-bottom: 2px solid #1a3c6e;
+    padding-bottom: 4pt;
+    margin-top: 20pt;
+    margin-bottom: 10pt;
+}
+h3 {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #2d2d2d;
+    margin-top: 14pt;
+    margin-bottom: 6pt;
+}
+.header-block {
+    text-align: center;
+    margin-bottom: 16pt;
+}
+.header-block p {
+    margin: 2pt 0;
+    font-size: 10pt;
+    color: #444;
+}
+.header-title {
+    font-size: 14pt;
+    font-weight: bold;
+    color: #1a3c6e;
+    letter-spacing: 1pt;
+}
+table.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10pt 0;
+    font-size: 10.5pt;
+}
+table.info-table td {
+    padding: 5pt 8pt;
+    border: 1px solid #ccc;
+}
+table.info-table td.label {
+    background-color: #e8edf3;
+    font-weight: bold;
+    width: 25%;
+    color: #1a3c6e;
+}
+table.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10pt 0;
+}
+table.student-table td {
+    padding: 8pt;
+    border: 1px solid #999;
+}
+table.student-table td.label {
+    background-color: #e8edf3;
+    font-weight: bold;
+    width: 28%;
+    font-size: 10.5pt;
+}
+table.student-table td.value {
+    width: 72%;
+}
+.instruction-list {
+    margin-left: 16pt;
+    margin-top: 6pt;
+}
+.instruction-list li {
+    margin-bottom: 6pt;
+    font-size: 10.5pt;
+}
+pre.tree {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 10pt 14pt;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 9.5pt;
+    line-height: 1.5;
+    margin: 8pt 0 12pt 0;
+}
+.criteria-item {
+    margin-left: 12pt;
+    margin-bottom: 10pt;
+}
+.criteria-item b {
+    color: #1a3c6e;
+}
+.question-block {
+    margin: 10pt 0 16pt 12pt;
+}
+.question-block p.question {
+    font-weight: bold;
+    margin-bottom: 4pt;
+    font-size: 10.5pt;
+}
+.answer-line {
+    border-bottom: 1px solid #999;
+    height: 20pt;
+    margin: 4pt 0;
+}
+table.rubric {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10pt 0;
+    font-size: 10.5pt;
+}
+table.rubric td, table.rubric th {
+    padding: 6pt 10pt;
+    border: 1px solid #999;
+}
+table.rubric th {
+    background-color: #1a3c6e;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+table.rubric tr:nth-child(even) {
+    background-color: #f2f5f9;
+}
+table.rubric td.pts {
+    text-align: center;
+    font-weight: bold;
+    width: 80pt;
+}
+table.rubric tr.total td {
+    background-color: #1a3c6e;
+    color: white;
+    font-weight: bold;
+}
+.warning-box {
+    background-color: #fff3e0;
+    border-left: 4px solid #e65100;
+    padding: 10pt 14pt;
+    margin: 12pt 0;
+    font-size: 10.5pt;
+}
+.warning-box b {
+    color: #e65100;
+}
+.footer {
+    text-align: center;
+    margin-top: 30pt;
+    padding-top: 10pt;
+    border-top: 2px solid #1a3c6e;
+    font-size: 9pt;
+    color: #777;
+}
+.serie-title {
+    font-weight: bold;
+    color: #1a3c6e;
+    font-size: 11pt;
+    margin-top: 14pt;
+    margin-bottom: 8pt;
+    font-style: italic;
+}
+</style>
+</head>
+<body>
+
+<div class="header-block">
+    <p>UNIVERSIDAD [NOMBRE DE LA UNIVERSIDAD]</p>
+    <p>FACULTAD DE INGENIERÍA</p>
+    <p style="margin-top:8pt; margin-bottom:8pt;">─────────────────────────────────────</p>
+    <p class="header-title">EVALUACIÓN PRÁCTICA</p>
+    <p class="header-title">PRIMERA EVALUACIÓN PARCIAL</p>
+    <p style="margin-top:8pt;">Desarrollo Móvil — Ciclo 2026</p>
+</div>
+
+<table class="info-table">
+    <tr>
+        <td class="label">Docente</td>
+        <td>Ing. [Nombre del Docente]</td>
+        <td class="label">Fecha</td>
+        <td>[Fecha de aplicación]</td>
+    </tr>
+    <tr>
+        <td class="label">Duración</td>
+        <td>120 minutos</td>
+        <td class="label">Modalidad</td>
+        <td>Presencial — Individual</td>
+    </tr>
+</table>
+
+<h2>DATOS DEL ESTUDIANTE</h2>
+
+<table class="student-table">
+    <tr>
+        <td class="label">Nombre completo</td>
+        <td class="value">&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="label">Carné</td>
+        <td class="value">&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="label">Sección</td>
+        <td class="value">&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="label">Firma</td>
+        <td class="value">&nbsp;</td>
+    </tr>
+</table>
+
+<h2>INSTRUCCIONES GENERALES</h2>
+
+<ol class="instruction-list">
+    <li>Esta evaluación es <b>estrictamente individual</b> y presencial.</li>
+    <li>Se le entrega un proyecto Android funcional llamado <b>"MyApplication"</b> que contiene TODA la lógica de la aplicación dentro de un único archivo: <b>MainActivity.kt</b>.</li>
+    <li>La aplicación consta de:
+        <ul>
+            <li><b>Pantalla de Login</b> — credenciales quemadas: <code>admin / admin</code></li>
+            <li><b>Pantalla de Lista de Productos</b> — consume la API: <code>https://api.restful-api.dev/objects</code></li>
+            <li><b>Pantalla de Detalle de Producto</b> — consume la API: <code>https://api.restful-api.dev/objects/{id}</code></li>
+            <li><b>Navegación</b> entre las 3 pantallas con Navigation Compose</li>
+        </ul>
+    </li>
+    <li>Su trabajo consiste en <b>refactorizar</b> esta aplicación aplicando el patrón de arquitectura <b>MVVM</b> tal como se enseñó en clase, separando el código en las capas y paquetes correspondientes.</li>
+    <li>La aplicación <b>DEBE seguir funcionando exactamente igual</b> después de la refactorización. No se permite alterar la funcionalidad ni la interfaz de usuario.</li>
+    <li>No está permitido el uso de internet, inteligencia artificial ni comunicación con otros estudiantes durante la evaluación.</li>
+    <li>Únicamente se permite el uso de Android Studio y la documentación oficial de Android descargada previamente.</li>
+</ol>
+
+<h2>PARTE I — REFACTORIZACIÓN ARQUITECTÓNICA (60 puntos)</h2>
+
+<p>Refactorice la aplicación aplicando el patrón MVVM con la siguiente estructura de paquetes, tal como se implementó en clase:</p>
+
+<pre class="tree">com.primera.evaluacion/
+├── MainActivity.kt
+├── data/
+│   └── remote/
+│       ├── RetrofitClient.kt
+│       └── ApiService.kt
+├── model/
+│   ├── LoginState.kt
+│   ├── ProductListState.kt
+│   ├── ProductDetailState.kt
+│   └── response/
+│       ├── ProductResponse.kt
+│       └── ProductData.kt
+└── ui/
+    ├── login/
+    │   ├── LoginScreen.kt
+    │   └── LoginViewModel.kt
+    ├── products/
+    │   ├── ProductListScreen.kt
+    │   ├── ProductListViewModel.kt
+    │   ├── ProductCard.kt
+    │   ├── ProductDetailScreen.kt
+    │   └── ProductDetailViewModel.kt
+    └── navigation/
+        └── AppNavigation.kt</pre>
+
+<h3>Criterios de evaluación:</h3>
+
+<div class="criteria-item">
+    <b>a) Capa data/remote (10 puntos)</b><br>
+    <code>RetrofitClient.kt</code> debe contener el objeto <code>ProductRetrofitClient</code> con la configuración de Retrofit, OkHttp y el logging interceptor. <code>ApiService.kt</code> debe contener la interfaz <code>ProductApiService</code> con los endpoints GET correspondientes.
+</div>
+
+<div class="criteria-item">
+    <b>b) Capa model (10 puntos)</b><br>
+    Cada data class debe estar en su propio archivo dentro del paquete correspondiente. Los estados de la UI (<code>LoginState</code>, <code>ProductListState</code>, <code>ProductDetailState</code>) deben estar directamente en el paquete <code>model/</code>. Los modelos de respuesta de la API (<code>ProductResponse</code>, <code>ProductData</code>) deben estar en el subpaquete <code>model/response/</code>.
+</div>
+
+<div class="criteria-item">
+    <b>c) Capa ui (30 puntos)</b><br>
+    Cada pantalla debe estar en su propio archivo Composable dentro del paquete que le corresponde. Cada ViewModel debe estar en su propio archivo dentro del paquete de su pantalla. <code>ProductCard</code> debe ser un Composable independiente en su propio archivo. La navegación (<code>AppRoutes</code> y <code>AppNavigator</code>) debe estar en <code>ui/navigation/AppNavigation.kt</code>.
+</div>
+
+<div class="criteria-item">
+    <b>d) MainActivity.kt (10 puntos)</b><br>
+    Debe quedar únicamente con la clase <code>MainActivity</code> que configura el tema, el Scaffold y el NavController, delegando todo al composable <code>AppNavigator</code>.
+</div>
+
+<h2>PARTE II — PREGUNTAS DE COMPRENSIÓN (20 puntos)</h2>
+
+<p>Responda las siguientes preguntas de forma breve y precisa.</p>
+
+<p class="serie-title">Serie A: Arquitectura MVVM (10 puntos)</p>
+
+<div class="question-block">
+    <p class="question">1. En la aplicación original, los ViewModels (ProductListViewModel y ProductDetailViewModel) acceden directamente a ProductRetrofitClient.apiService. ¿Por qué esto viola el patrón MVVM y qué capa intermedia debería existir entre el ViewModel y el servicio de red?</p>
+    <div class="answer-line">&nbsp;</div>
+    <div class="answer-line">&nbsp;</div>
+    <div class="answer-line">&nbsp;</div>
+</div>
+
+<div class="question-block">
+    <p class="question">2. ¿Cuál es la responsabilidad de un StateFlow dentro del ViewModel y por qué se expone como StateFlow (inmutable) en lugar de MutableStateFlow hacia la capa de UI?</p>
+    <div class="answer-line">&nbsp;</div>
+    <div class="answer-line">&nbsp;</div>
+    <div class="answer-line">&nbsp;</div>
+</div>
+
+<div class="question-block">
+    <p class="question">3. ¿Qué función cumple LaunchedEffect en LoginScreen y qué sucedería si se elimina la key (state.loginExito) que recibe como parámetro?</p>
+    <div class="answer-line">&nbsp;</div>
+    <div class="answer-line">&nbsp;</div>
+    <div class="answer-line">&nbsp;</div>
+</div>
+
+<p class="serie-title">Serie B: Navegación y Retrofit (10 puntos)</p>
+
+<div class="question-block">
+    <p class="question">1. En AppRoutes, la ruta PRODUCT_DETAIL se define como "product_detail/{productId}". Explique el flujo completo del valor productId desde que el usuario toca un producto en la lista hasta que se muestra en ProductDetailScreen.</p>
+    <div class="answer-line">&nbsp;</div>
+    <div class="answer-line">&nbsp;</div>
+    <div class="answer-line">&nbsp;</div>
+</div>
+
+<div class="question-block">
+    <p class="question">2. ¿Qué hace popUpTo(AppRoutes.LOGIN) { inclusive = true } cuando el usuario inicia sesión exitosamente y qué pasaría si no se incluyera esa instrucción en la navegación?</p>
+    <div class="answer-line">&nbsp;</div>
+    <div class="answer-line">&nbsp;</div>
+    <div class="answer-line">&nbsp;</div>
+</div>
+
+<div class="question-block">
+    <p class="question">3. En ProductRetrofitClient se usa un HttpLoggingInterceptor con nivel BODY. ¿Cuál es su propósito y dónde se pueden observar los resultados de este interceptor durante la ejecución de la aplicación?</p>
+    <div class="answer-line">&nbsp;</div>
+    <div class="answer-line">&nbsp;</div>
+    <div class="answer-line">&nbsp;</div>
+</div>
+
+<h2>PARTE III — DEFENSA ORAL (20 puntos)</h2>
+
+<p>Al finalizar la parte práctica, el docente realizará una <b>defensa oral individual</b> de aproximadamente 10 minutos donde el estudiante deberá:</p>
+
+<ul class="instruction-list">
+    <li>Explicar el flujo completo de datos desde que el usuario presiona "Ingresar" hasta que aparece la lista de productos, señalando cada archivo involucrado en su refactorización.</li>
+    <li>Demostrar en su código dónde y cómo se conecta cada capa del patrón MVVM (UI → ViewModel → Data → API).</li>
+    <li>Responder preguntas del docente sobre decisiones tomadas en su refactorización y sobre el comportamiento del código.</li>
+</ul>
+
+<h3>Criterios de evaluación de la defensa:</h3>
+
+<table class="rubric">
+    <tr>
+        <th>Criterio</th>
+        <th style="text-align:center; width:80pt;">Puntos</th>
+    </tr>
+    <tr>
+        <td>Claridad al explicar el flujo de datos entre capas</td>
+        <td class="pts">5</td>
+    </tr>
+    <tr>
+        <td>Identificación correcta de las capas MVVM en su código</td>
+        <td class="pts">5</td>
+    </tr>
+    <tr>
+        <td>Capacidad de responder preguntas sobre su propio código</td>
+        <td class="pts">5</td>
+    </tr>
+    <tr>
+        <td>Dominio de los conceptos sin apoyo de material externo</td>
+        <td class="pts">5</td>
+    </tr>
+</table>
+
+<h2>RÚBRICA GENERAL DE CALIFICACIÓN</h2>
+
+<table class="rubric">
+    <tr>
+        <th>Sección</th>
+        <th style="text-align:center; width:80pt;">Puntos</th>
+    </tr>
+    <tr>
+        <td>Parte I — Refactorización arquitectónica</td>
+        <td class="pts">60</td>
+    </tr>
+    <tr>
+        <td>Parte II — Preguntas de comprensión</td>
+        <td class="pts">20</td>
+    </tr>
+    <tr>
+        <td>Parte III — Defensa oral</td>
+        <td class="pts">20</td>
+    </tr>
+    <tr class="total">
+        <td>TOTAL</td>
+        <td class="pts">100</td>
+    </tr>
+</table>
+
+<p style="text-align:center; margin-top:6pt; font-size:10pt;"><b>Nota mínima de aprobación: 61 puntos</b></p>
+
+<h2>NOTAS IMPORTANTES</h2>
+
+<div class="warning-box">
+    <b>⚠ Compilación:</b> Si la aplicación no compila después de la refactorización, la nota máxima de la Parte I será de 30 puntos (50% de esa sección).
+</div>
+
+<div class="warning-box">
+    <b>⚠ Integridad académica:</b> Si se detecta uso de herramientas de inteligencia artificial, copia entre estudiantes o acceso a internet durante la evaluación, la nota será de 0 puntos sin posibilidad de reposición.
+</div>
+
+<div class="warning-box">
+    <b>⚠ Defensa obligatoria:</b> La defensa oral es obligatoria. Si el estudiante no puede explicar su propio código, la nota de la Parte I se reducirá a la mitad.
+</div>
+
+<div class="footer">
+    <p>— Fin del examen —</p>
+</div>
+
+</body>
+</html>
